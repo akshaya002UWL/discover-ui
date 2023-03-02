@@ -1,0 +1,26 @@
+@import '../carbon';
+@import 'carbon-components/scss/globals/scss/_import-once';
+@import '@carbon/ibm-products/scss/global/styles/project-settings';
+
+$block-class: 'full-page-example';
+$preview-block-class: #{full-page-example}--create-full-page-sandbox;
+
+.#{$preview-block-class} .#{full-page-example}--create-full-page__content {
+  background-color: $ui-background;
+  color: $text-01;
+}
+
+.#{$preview-block-class}__step-fieldset--no-label .#{$prefix}--fieldset legend {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.#{$preview-block-class} .bx--form-item {
+  z-index: 99;
+  margin-bottom: $spacing-05;
+}

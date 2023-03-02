@@ -1,0 +1,20 @@
+@import 'carbon';
+
+body {
+  @include carbon--theme();
+
+  background-color: $ui-background;
+  color: $text-01;
+}
+.c4p--create-full-page.full-page-example{
+  margin-top: 3em !important;
+}
+.c4p--create-full-page.full-page-example{
+  height: 95vh !important;
+}
+.bx--row {
+  display: block !important;
+}
+.bx--col-sm-3.bx--col-md-3.bx--col-lg-3.bx--col-xlg-3{
+  max-width: 100%;
+}
